@@ -1,0 +1,11 @@
+D:\C_SHARP_MB\Lab1\Zad1.0\Zad1.0\bin\Debug\netcoreapp3.1\Zad1.0.exe
+D:\C_SHARP_MB\Lab1\Zad1.0\Zad1.0\bin\Debug\netcoreapp3.1\Zad1.0.deps.json
+D:\C_SHARP_MB\Lab1\Zad1.0\Zad1.0\bin\Debug\netcoreapp3.1\Zad1.0.runtimeconfig.json
+D:\C_SHARP_MB\Lab1\Zad1.0\Zad1.0\bin\Debug\netcoreapp3.1\Zad1.0.runtimeconfig.dev.json
+D:\C_SHARP_MB\Lab1\Zad1.0\Zad1.0\bin\Debug\netcoreapp3.1\Zad1.0.dll
+D:\C_SHARP_MB\Lab1\Zad1.0\Zad1.0\bin\Debug\netcoreapp3.1\Zad1.0.pdb
+D:\C_SHARP_MB\Lab1\Zad1.0\Zad1.0\obj\Debug\netcoreapp3.1\Zad1.0.csprojAssemblyReference.cache
+D:\C_SHARP_MB\Lab1\Zad1.0\Zad1.0\obj\Debug\netcoreapp3.1\Zad1.0.AssemblyInfoInputs.cache
+D:\C_SHARP_MB\Lab1\Zad1.0\Zad1.0\obj\Debug\netcoreapp3.1\Zad1.0.AssemblyInfo.cs
+D:\C_SHARP_MB\Lab1\Zad1.0\Zad1.0\obj\Debug\netcoreapp3.1\Zad1.0.dll
+D:\C_SHARP_MB\Lab1\Zad1.0\Zad1.0\obj\Debug\netcoreapp3.1\Zad1.0.pdb
