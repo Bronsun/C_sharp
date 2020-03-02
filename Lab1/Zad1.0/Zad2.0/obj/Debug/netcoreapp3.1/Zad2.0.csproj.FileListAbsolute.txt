@@ -1,0 +1,10 @@
+/Users/bronsun/Desktop/C#/Lab1/Zad2.0/obj/Debug/netcoreapp3.1/Zad2.0.csprojAssemblyReference.cache
+/Users/bronsun/Desktop/C#/Lab1/Zad2.0/obj/Debug/netcoreapp3.1/Zad2.0.AssemblyInfoInputs.cache
+/Users/bronsun/Desktop/C#/Lab1/Zad2.0/obj/Debug/netcoreapp3.1/Zad2.0.AssemblyInfo.cs
+/Users/bronsun/Desktop/C#/Lab1/Zad2.0/bin/Debug/netcoreapp3.1/Zad2.0.deps.json
+/Users/bronsun/Desktop/C#/Lab1/Zad2.0/bin/Debug/netcoreapp3.1/Zad2.0.runtimeconfig.json
+/Users/bronsun/Desktop/C#/Lab1/Zad2.0/bin/Debug/netcoreapp3.1/Zad2.0.runtimeconfig.dev.json
+/Users/bronsun/Desktop/C#/Lab1/Zad2.0/bin/Debug/netcoreapp3.1/Zad2.0.dll
+/Users/bronsun/Desktop/C#/Lab1/Zad2.0/bin/Debug/netcoreapp3.1/Zad2.0.pdb
+/Users/bronsun/Desktop/C#/Lab1/Zad2.0/obj/Debug/netcoreapp3.1/Zad2.0.dll
+/Users/bronsun/Desktop/C#/Lab1/Zad2.0/obj/Debug/netcoreapp3.1/Zad2.0.pdb
