@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1371413A-1539-4D0F-8A1A-44195CE5ED08}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Project1</RootNamespace>
+    <AssemblyName>Project1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Homework_Mateusz_Broncel.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anus.cs" />
+    <Compile Include="Arms.cs" />
+    <Compile Include="Chest.cs" />
+    <Compile Include="Circulatory_system.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Corpus.cs" />
+    <Compile Include="Digestive_sys.cs" />
+    <Compile Include="Digestive_system.cs" />
+    <Compile Include="Endocrine_system.cs" />
+    <Compile Include="Eyes.cs" />
+    <Compile Include="Genitalias.cs" />
+    <Compile Include="Head.cs" />
+    <Compile Include="Human_body.cs" />
+    <Compile Include="Immune_sys.cs" />
+    <Compile Include="Immune_system.cs" />
+    <Compile Include="Integumentary_system.cs" />
+    <Compile Include="Intensies.cs" />
+    <Compile Include="Legs.cs" />
+    <Compile Include="Lower_Body.cs" />
+    <Compile Include="Lungs.cs" />
+    <Compile Include="Lymphatic_system.cs" />
+    <Compile Include="Mouth.cs" />
+    <Compile Include="Musculoskeletal_sys.cs" />
+    <Compile Include="Musculoskeletal_system.cs" />
+    <Compile Include="Nervous_sys.cs" />
+    <Compile Include="Nervous_system.cs" />
+    <Compile Include="Nose.cs" />
+    <Compile Include="Penis.cs" />
+    <Compile Include="Reproductive_sys.cs" />
+    <Compile Include="Reproductive_system.cs" />
+    <Compile Include="Respiratory_sys.cs" />
+    <Compile Include="Respiratory_system.cs" />
+    <Compile Include="Stomach.cs" />
+    <Compile Include="Teeth.cs" />
+    <Compile Include="Urinary_sys.cs" />
+    <Compile Include="Urinaty_system.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

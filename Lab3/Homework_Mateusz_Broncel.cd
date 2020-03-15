@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Interfejsy systemów z funkcjami podstawowymi&#xD;&#xA;">
+    <Position X="5.292" Y="0.652" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Trzy klasy dzielace cialo czlowieka na trzy czesci. Nie maja metod poniewaz sluza do szybszej hierarchizacji układów. (Uproszczenie zamiast dodawac kazda z tych dwoch klas do poszczegolnych narzadow robimy jedna ktora dziedziczy wszystko)&#xD;&#xA;&#xD;&#xA;">
+    <Position X="10.807" Y="3.806" Height="2.036" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Podzial na partie ciala wprowadza porzadek w kodzie i umoziliwa latwiejsza nawigacje w nim&#xD;&#xA;">
+    <Position X="0.78" Y="3.52" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Niektore podklasy dziedzicza rozne interfejsy &#xD;&#xA;">
+    <Position X="0.5" Y="9.941" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Dzieki takiemu rozlozeniu widzimy, ze nasz kod oraz uklad staje sie znacznie latwiejszy w odtworzeniu i kolejny programista wie co ma robic&#xD;&#xA;">
+    <Position X="2.292" Y="9.955" Height="1.133" Width="1.7" />
+  </Comment>
+  <Comment CommentText="W kazdej parti ciala mozemy dopisac wiele klas, gdybysmy byli bardziej dociekliwi bysmy mogli zaczac od ogolnych czesci takich jak glowa czy korpus konczac na komorkach&#xD;&#xA;">
+    <Position X="4.301" Y="9.96" Height="1.429" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Interfesjy zawieraja podstawowe metody ktore w zaleznosci od czesci ciala mozemy sobie modyfikowac. Np bol dla kazdej czesci ciala jest inny&#xD;&#xA;">
+    <Position X="2.558" Y="0.5" Height="1.101" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Podział na tym grafie jest bardzo ogolnikowy ale bardzo przejrzysty i mogacy byc w latwy sposob rozszerzalny o kolejne metody&#xD;&#xA;">
+    <Position X="6.297" Y="10.053" Height="1.253" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Klasa Genitalaas czy Mouth mozemy zauwazyc ze dziedzcza dwa interfesjy gdzie pozostale dziedzicza jeden interfesj lub tylko klase podstawowa. Ulatwia nam to bardzo prace&#xD;&#xA;">
+    <Position X="9" Y="10.25" Height="1.485" Width="1.7" />
+  </Comment>
+  <Comment CommentText="NIE MAM POJECIA JESZCZE JAKI KOMENTARZ DAC XD 10 to lekka przesada XDD&#xD;&#xA;">
+    <Position X="11.528" Y="7.765" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="Project1.Head">
+    <Position X="1" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Head.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project1.Lungs">
+    <Position X="4.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lungs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project1.Nose">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Nose.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project1.Mouth">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mouth.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project1.Eyes">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Eyes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project1.Corpus">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Corpus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project1.Chest">
+    <Position X="6.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project1.Arms">
+    <Position X="4.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Arms.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project1.Stomach">
+    <Position X="6.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stomach.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project1.Lower_Body">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lower_Body.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project1.Legs">
+    <Position X="8" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Legs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project1.Anus">
+    <Position X="9.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Anus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project1.Teeth">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Teeth.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project1.Genitalias">
+    <Position X="8" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Genitalias.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project1.Intensies">
+    <Position X="9.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intensies.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Project1.Reproductive_sys">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reproductive_sys.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Project1.Urinary_sys">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Urinary_sys.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Project1.Respiratory_sys">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Respiratory_sys.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Project1.Nervous_sys">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Nervous_sys.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Project1.Musculoskeletal_sys">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Musculoskeletal_sys.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Project1.Digestive_sys">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Digestive_sys.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
