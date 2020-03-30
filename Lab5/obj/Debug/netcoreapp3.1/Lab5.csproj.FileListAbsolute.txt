@@ -1,0 +1,10 @@
+/Users/bronsun/Desktop/C#/Lab5/obj/Debug/netcoreapp3.1/Lab5.csprojAssemblyReference.cache
+/Users/bronsun/Desktop/C#/Lab5/obj/Debug/netcoreapp3.1/Lab5.AssemblyInfoInputs.cache
+/Users/bronsun/Desktop/C#/Lab5/obj/Debug/netcoreapp3.1/Lab5.AssemblyInfo.cs
+/Users/bronsun/Desktop/C#/Lab5/bin/Debug/netcoreapp3.1/Lab5.deps.json
+/Users/bronsun/Desktop/C#/Lab5/bin/Debug/netcoreapp3.1/Lab5.runtimeconfig.json
+/Users/bronsun/Desktop/C#/Lab5/bin/Debug/netcoreapp3.1/Lab5.runtimeconfig.dev.json
+/Users/bronsun/Desktop/C#/Lab5/bin/Debug/netcoreapp3.1/Lab5.dll
+/Users/bronsun/Desktop/C#/Lab5/bin/Debug/netcoreapp3.1/Lab5.pdb
+/Users/bronsun/Desktop/C#/Lab5/obj/Debug/netcoreapp3.1/Lab5.dll
+/Users/bronsun/Desktop/C#/Lab5/obj/Debug/netcoreapp3.1/Lab5.pdb
