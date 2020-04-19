@@ -1,0 +1,10 @@
+/Users/bronsun/Desktop/C#/Lab7/Zadania/bin/Debug/netcoreapp3.1/Zadania.deps.json
+/Users/bronsun/Desktop/C#/Lab7/Zadania/bin/Debug/netcoreapp3.1/Zadania.runtimeconfig.json
+/Users/bronsun/Desktop/C#/Lab7/Zadania/bin/Debug/netcoreapp3.1/Zadania.runtimeconfig.dev.json
+/Users/bronsun/Desktop/C#/Lab7/Zadania/bin/Debug/netcoreapp3.1/Zadania.dll
+/Users/bronsun/Desktop/C#/Lab7/Zadania/bin/Debug/netcoreapp3.1/Zadania.pdb
+/Users/bronsun/Desktop/C#/Lab7/Zadania/obj/Debug/netcoreapp3.1/Zadania.csprojAssemblyReference.cache
+/Users/bronsun/Desktop/C#/Lab7/Zadania/obj/Debug/netcoreapp3.1/Zadania.AssemblyInfoInputs.cache
+/Users/bronsun/Desktop/C#/Lab7/Zadania/obj/Debug/netcoreapp3.1/Zadania.AssemblyInfo.cs
+/Users/bronsun/Desktop/C#/Lab7/Zadania/obj/Debug/netcoreapp3.1/Zadania.dll
+/Users/bronsun/Desktop/C#/Lab7/Zadania/obj/Debug/netcoreapp3.1/Zadania.pdb
